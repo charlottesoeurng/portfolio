@@ -1,0 +1,64 @@
+/*
+    skillsStyle.css
+    Author: Charlotte Soeurng
+*/
+
+.skills-section {
+    border-top: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.skills-card {
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.col-heading {
+    font-family: 'Fraunces', serif;
+    font-size: 1.05rem;
+    font-weight: var(--fw-bold);
+    color: var(--text-primary);
+    margin-bottom: 1.25rem;
+}
+
+.tag-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.skill-tag {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0.35rem 0.85rem;
+    background: var(--bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-pill);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.83rem;
+    color: var(--text-secondary);
+    transition: border-color 0.2s, color 0.2s;
+    cursor: default;
+}
+.skill-tag:hover {
+    border-color: var(--light);
+    color: var(--text-primary);
+}
+.skill-tag.soft:hover {
+    border-color: var(--dark);
+    color: var(--text-primary);
+}
+
+@media (max-width: 640px) {
+    .skills-grid { grid-template-columns: 1fr; }
+}

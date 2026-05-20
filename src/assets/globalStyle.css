@@ -1,0 +1,174 @@
+/*
+    globalStyle.css
+    Author: Charlotte Soeurng
+*/
+
+/* PRIMARY */
+:root {
+    /* Color palette from https://coolors.co/palette/dad7cd-a3b18a-588157-3a5a40-344e41 */
+    --darkest: #344e41;
+    --darker: #3a5a40;
+    --dark: #588157;
+    --light: #a3b18a;
+    --lighter: #dad7cd;
+
+    --bg: var(--darkest);
+    --card-bg: var(--darker);
+    --card-border: var(--light);
+
+    --text-primary: var(--lighter);
+    --text-secondary: var(--light);
+    --text-tertiary: var(--dark);
+
+    --radius-circle: 50%;
+    --radius-pill: 50px;
+    --radius-card: 10px;
+    --radius-btn: var(--radius-card);
+    --radius-sm: 3px;
+
+    --fw-bold: 700;
+    --fw-black: 900;
+
+    --nav-height: 64px;
+}
+
+/* DEFAULTS */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--text-primary);
+    background: var(--bg);
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+    color: var(--text-primary);
+    line-height: 1.15;
+    margin: 0 0 0.5rem;
+}
+
+h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--fw-black);
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
+}
+h3 {
+    font-size: 1.2rem;
+    font-weight: var(--fw-bold);
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0 0 1rem;
+}
+
+/* LINKS */
+a {
+    color: var(--light);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover {
+    color: var(--lightest);
+}
+
+/* BUTTONS */
+button {
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+
+.btn {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: var(--fw-bold);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--radius-pill);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background: var(--dark);
+    color: var(--lighter);
+}
+.btn-primary:hover {
+    background: var(--darker);
+}
+
+.btn-secondary {
+    background: var(--lighter);
+    color: var(--darkest);
+}
+.btn-secondary:hover {
+    background: var(--light);
+    color: var(--darkest)
+}
+
+.btn-tertiary {
+    color: var(--text-secondary);
+    border: 1px solid var(--card-border);
+}
+ .btn-tertiary:hover {
+    border: 1px solid var(--lighter);  
+    color: var(--text-primary);
+}
+
+/* CARDS*/
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius-card);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+    padding: 1.6rem 1.2rem;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.22);
+    border-color: var(--light);
+}
+
+/* SECTIONS */
+#app {
+    min-height: 100vh;
+}
+
+.section-container {
+    padding: 5rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-header {
+    margin-bottom: 2.5rem;
+}
+
+.section-title {
+    font-family: 'Fraunces', serif;
+    font-size: 1.2rem;
+    font-weight: var(--fw-bold);
+    color: var(--text-primary);
+}

@@ -1,0 +1,37 @@
+.resume-section {
+    border-top: 1px solid var(--card-border);
+}
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.resume-actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.resume-embed {
+    padding: 0;
+    overflow: hidden;
+}
+.resume-frame {
+    width: 100%;
+    height: 820px;
+    display: block;
+}
+.resume-fallback {
+    display: none;
+    padding: 3rem;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+    .resume-frame { height: 500px; }
+}
