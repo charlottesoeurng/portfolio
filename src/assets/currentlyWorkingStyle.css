@@ -1,0 +1,54 @@
+.cw-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.cw-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cw-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-tertiary);
+    margin: 0;
+}
+
+.cw-title {
+    font-family: 'Fraunces', serif;
+    font-size: 1.1rem;
+    font-weight: var(--fw-bold);
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.cw-description {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
+}
+
+.cw-badge {
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.72rem;
+    padding: 0.18rem 0.55rem;
+    background: var(--lighter);
+    color: var(--darkest);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--card-border);
+    align-self: flex-start;
+}
+
+@media (max-width: 640px) {
+    .cw-grid { grid-template-columns: 1fr; }
+}

@@ -11,25 +11,26 @@ const technical = [
     'HTML / CSS',
     'REST APIs',
     'Git / GitHub',
+    'Docker',
     'SQL',
-    'Vue.js', 'Foundation (Framework)',
     'GameMaker Studio',
     'Data Mining',
     'Data Analysis',
     'Machine Learning',
     'Linux',
-    'Agile / Scrum',
+    'Vercel',
 ]
 
 const professional = [
     'Project Management',
-    'Problem Solving',
+    'Quality Assurance and Testing',
     'Cross-functional Collaboration',
-    'Organization',
+    'Stakeholder Communication',
+    'Technical Documentation',
+    'Ethics',
+    "Logic",
     'Critical Thinking',
-    'Analytical Reasoning',
-    'Attention to Detail',
-    'Adaptability',
+    'Agile / Scrum'
 ]
 </script>
 

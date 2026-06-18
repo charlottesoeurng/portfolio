@@ -4,6 +4,10 @@
     Author: Charlotte Soeurng
 */
 import { ref, onMounted, onUnmounted } from 'vue'
+import { RouterLink, useRouter, useRoute } from 'vue-router'
+
+const router = useRouter()
+const route = useRoute()
 
 const isScrolled = ref(false)
 const activeSection = ref('about')
@@ -16,9 +20,16 @@ const menu = [
     { id: 'resume',   label: 'Resume' },
 ]
 
-function scrollTo(id) {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+async function scrollTo(id) {
     menuOpen.value = false
+    if (route.path !== '/') {
+        await router.push('/')
+        setTimeout(() => {
+            document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+        }, 100)
+    } else {
+        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+    }
 }
 
 function handleScroll() {
@@ -56,7 +67,7 @@ onUnmounted(() => {
     <nav :class="['navbar', { scrolled: isScrolled }]">
         <div class="nav-section">
             <a class="logo" href="#" @click.prevent="scrollTo('about')">
-                Charlotte's Portfolio
+                Charlotte Soeurng
             </a>
 
             <ul class="nav-links" :class="{ open: menuOpen }">
@@ -68,6 +79,9 @@ onUnmounted(() => {
                     >
                         {{ item.label }}
                     </a>
+                </li>
+                <li>
+                    <RouterLink to="/other">Other</RouterLink>
                 </li>
             </ul>
 

@@ -4,11 +4,11 @@
     Author: Charlotte Soeurng
 */
 const interests = [
-    'Web Development',
-    'Game Making',
     'Machine Learning',
+    'Game Development',
     'Philosophy',
-    'Reading / Writing'
+    'Fitness',
+    'Reading & Writing'
 ]
 
 function scroll(id) {
@@ -22,23 +22,23 @@ function scroll(id) {
             <div class="hero-text">
                 <h1 class="hero-name">Charlotte Soeurng</h1>
                 <p class="hero-title">
-                    Computer Science &nbsp;·&nbsp; St. Paul, MN
+                    Software Developer &nbsp;·&nbsp; Minneapolis, MN
                 </p>
 
                 <div class="card about-card">
                     <p class="card-label">About Me</p>
                     <p class="card-text">
-                        I am an upcoming computer science graduate from the University of St. Thomas with a passion for building impactful products to benefit the common good. I have strong interests in frontend development, UI design, and game development.
+                        <strong>Software Developer</strong> with a focus on <strong>web application</strong> and <strong>full-stack development</strong>. Owned frontend development and UI/UX implementation for nonprofit crime resource directory, integrating search and filter functions for over 300 resources across Minnesota. Proficient in JavaScript, Java, Python, SQL, Vue.js, REST APIs and Machine Learning concepts.
                     </p>
 
                     <div class="why-hire">
-                        <p class="card-label">Why should you hire me?</p>
+                        <p class="card-label">Why hire me?</p>
                         <p class="card-text">
-                            I not only bring experience in
-                            <strong>Software Development</strong> and
-                            <strong>Data Science</strong>, but I also have a solid background in
-                            <strong>Philosophy</strong>.
-                            That allows me to improve my judgement and critical thinking skills as I approach issues from ethical, logical, and philosopical perspectives.
+                            I ship real products for real people. I built and deployed a crime resource directory for crime victims across Minnesota that is currently deployed and used by client, advocates, and victims.
+                            <br>I also founded 
+                            <strong>foodscale, </strong>my own meal prep calculator that calculates exact protein grams and calories for lifters and strict dieters who meal prep with limited food set and macronutrient limits. The demo is currently finished, with the full version launching in July 2026.
+                            <br>My 
+                            <strong>philosophy </strong> background improves how I reason about user experience, allowing me to approach problems from ethical, logical, and philosophical perspectives.
                         </p>
                     </div>
                 </div>
@@ -50,6 +50,20 @@ function scroll(id) {
                             <path d="M6 12v5c3 3 9 3 12 0v-5"/>
                         </svg>
                         University of St. Thomas
+                    </span>
+                    <span class="detail">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                        Computer Science
+                    </span>
+                    <span class="detail">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                        Data Science
                     </span>
                     <span class="detail">
                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
