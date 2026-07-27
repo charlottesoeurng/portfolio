@@ -156,6 +156,15 @@ button {
     min-height: 100vh;
 }
 
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.portfolio main {
+    flex: 1;
+}
+
 .section-container {
     padding: 5rem 2rem;
     max-width: 1100px;

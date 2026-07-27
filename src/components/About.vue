@@ -5,8 +5,7 @@
 */
 const interests = [
     'Machine Learning',
-    'Game Development',
-    'Philosophy',
+    'Philosophy & Ethics',
     'Fitness',
     'Reading & Writing'
 ]
@@ -63,7 +62,7 @@ function scroll(id) {
                             <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
                             <path d="M6 12v5c3 3 9 3 12 0v-5"/>
                         </svg>
-                        Data Science
+                        Data Science Minor
                     </span>
                     <span class="detail">
                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

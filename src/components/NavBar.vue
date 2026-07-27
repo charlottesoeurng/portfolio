@@ -74,14 +74,15 @@ onUnmounted(() => {
                 <li v-for="item in menu" :key="item.id">
                     <a
                         href="#"
-                        :class="{ active: activeSection === item.id }"
+                        :class="{ active: activeSection === item.id && route.path === '/' }"
+
                         @click.prevent="scrollTo(item.id)"
                     >
                         {{ item.label }}
                     </a>
                 </li>
                 <li>
-                    <RouterLink to="/other">Other</RouterLink>
+                    <RouterLink to="/other" :class="{ active: route.path === '/other' }">Other</RouterLink>
                 </li>
             </ul>
 

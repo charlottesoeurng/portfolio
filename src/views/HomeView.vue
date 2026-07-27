@@ -26,7 +26,7 @@ import Resume from '@/components/Resume.vue'
                 </p>
                 <div class="footer-links">
                     <a href="https://github.com/charlotteSoeurng" target="_blank" rel="noopener">GitHub</a>
-                    <a href="https://linkedin.com/in/CharlotteSoeurng" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://linkedin.com/in/Charlotte-Soeurng" target="_blank" rel="noopener">LinkedIn</a>
                     <a href="mailto:charlottesoeurng@outlook.com">Email</a>
                 </div>
             </div>
