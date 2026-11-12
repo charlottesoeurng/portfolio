@@ -5,8 +5,7 @@
 */
 const interests = [
     'Machine Learning',
-    'Philosophy & Ethics',
-    'Fitness',
+    'Philosophy & Logic',
     'Reading & Writing'
 ]
 
@@ -35,9 +34,9 @@ function scroll(id) {
                         <p class="card-text">
                             I ship real products for real people. I built and deployed a crime resource directory for crime victims across Minnesota that is currently deployed and used by client, advocates, and victims.
                             <br>I also founded 
-                            <strong>foodscale, </strong>my own meal prep calculator that calculates exact protein grams and calories for lifters and strict dieters who meal prep with limited food set and macronutrient limits. The demo is currently finished, with the full version launching in July 2026.
+                            <strong>foodscale, </strong>my own meal prep calculator that calculates exact protein grams and calories for lifters and strict dieters who meal prep with limited food set and macronutrient limits. The demo was launched in September 2026.
                             <br>My 
-                            <strong>philosophy </strong> background improves how I reason about user experience, allowing me to approach problems from ethical, logical, and philosophical perspectives.
+                            <strong>philosophy </strong> background improves how I reason about user experience, allowing me to approach problems from ethical and logical perspectives.
                         </p>
                     </div>
                 </div>
@@ -62,7 +61,7 @@ function scroll(id) {
                             <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
                             <path d="M6 12v5c3 3 9 3 12 0v-5"/>
                         </svg>
-                        Data Science Minor
+                        Data Science
                     </span>
                     <span class="detail">
                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

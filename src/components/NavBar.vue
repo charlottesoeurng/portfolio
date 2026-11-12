@@ -81,9 +81,11 @@ onUnmounted(() => {
                         {{ item.label }}
                     </a>
                 </li>
+                <!--
                 <li>
                     <RouterLink to="/other" :class="{ active: route.path === '/other' }">Other</RouterLink>
                 </li>
+                -->
             </ul>
 
             <button

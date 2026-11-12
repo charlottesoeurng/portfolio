@@ -8,16 +8,7 @@ const items = [
         label: 'Building',
         title: 'FoodScale',
         description: 'Meal prep calculator for lifters and strict dieters utilizing within a fixed food set and macronutrient constraints.',
-        badge: 'Launching July 2026',
-    },
-    {
-        label: 'Reading',
-        title: 'Sharp Objects',
-        description: `
-            Psychological thriller about a reporter investigating murders in her hometown. Fresh from a brief stay at a psych hospital, Camille Preaker returns to Wind Gap, Missouri, to report on the unsolved homicides of two girls.
-            <br><br>
-        `,
-        badge: 'By Gillian Flynn',
+        badge: 'Launching August 2026',
     },
 ]
 </script>

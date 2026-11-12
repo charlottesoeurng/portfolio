@@ -8,16 +8,18 @@ const projects = [
     {
         id: 1,
         title: 'Minnesota Alliance on Crime',
-        date: 'February 2026 - July 2026',
+        date: 'February 2026 - August 2026',
         figure: `${import.meta.env.BASE_URL}macWebsite.png`,
         contribution: 'Frontend Developer, UI/UX Designer, and QA',
         description: `
-            Minnesota nonprofit needed responsive directory to connect crime victims, advocates, and organizations to over 300 resources around the state. I owned frontend development, UI/UX design, and QA on a small team under a tight schedule. I built search and filter functionality, dark mode, responsive design system, and conducted cross-browser and cross-device testing for every implementation front and back end.
+            Responsive directory that connects crime victims, advocates, and organizations to over 300 resources around the state. I owned every user-facing domain within an agile development environment. I built search and filter functionality, accessibility features, responsive design system, and conducted cross-browser and cross-device testing for every implementation front and back end. Fully responsible for the user experience, my design philosophy was to build safety measures for worst-case scenarios while ensuring the application was accessible to all users.
             <br><br>
-            The directory successfully launched by the end of May 2026, and is currently live and used by nonprofits and crime victims.
+            The application successfully launched in May 2026 and is currently live and used by nonprofits and crime victims. I updated and maintained the application until August 2026. 
+            <br><br>
+            (Map tiles are currently restricted due to a licensing issue)
             <br><br>
         `,
-        keywords: ['Vue.js', 'JavaScript', 'LeafLet', 'Firebase', 'API', 'Crime Resources', 'Web Application', 'NonProfit'],
+        keywords: ['Vue.js', 'JavaScript', 'LeafLet', 'Firebase', 'Web Application', 'Agile', 'Vercel'],
         links: [
             { label: 'Deployment', href: 'https://crime-resource-directory-mn.vercel.app/' },
         ],
@@ -25,16 +27,18 @@ const projects = [
     {
         id: 2,
         title: 'FoodScale',
-        date: 'May 2026 - Present',
+        date: 'June 2026 - Present',
         figure: `${import.meta.env.BASE_URL}foodscale.png`,
-        contribution: 'Founder, Developer, and Designer',
+        contribution: 'Full Stack Engineer',
         description: `
-            Meal prep calculator for lifters and strict dieters utilizing within a fixed food set and macronutrient constraints. I built the full stack application, including frontend, and backend using the USA Food Data Central API. I also designed responsive UI/UX and conducted all testing.
+            Meal prep calculator for weightlifters and strict dieters utilizing within a fixed food set and macronutrient constraints. Inputs ingredients, macro goals, and remaining meals. Outputs customized meal plans according to the user's specifications. I built the full stack application using an external API from USA Food Data Central, and designed algorithm using greedy approach and linear interpolation. I implemented responsive UI/UX and conducted all testing.
             <br><br>
-            The demo is currently finished, with the full version launching in July 2026.
+            The MVP was launched in September 2026, and finished development in November 2026.
         `,
-        keywords: ['Vue.js', 'JavaScript', 'USDA', 'Meal Prep Calculator', 'Web Application'],
-        links: [],
+        keywords: ['Vue.js', 'JavaScript', 'USDA', 'Web Application', 'Render'],
+        links: [
+            { label: 'Deployment', href: 'https://foodscale.onrender.com/' },
+        ],
     },
     {
         id: 3,
@@ -43,43 +47,13 @@ const projects = [
         figure: `${import.meta.env.BASE_URL}greenstep.png`,
         contribution: 'Database Developer',
         description: `
-            Minnesota nonprofit needed a database for an application that tracks city sustainability initiatives all across the state. I implemented a relational database schema, built data structures and relationships, and created queries.
+            Minnesota nonprofit requested a database for an application that tracks city sustainability initiatives all across the state. I implemented a relational database schema, built data structures and relationships, and created queries.
             <br><br>
             The database was used by the web development team to build an application that allows cities to track their sustainability initiatives and progress.
         `,
-        keywords: ['SQL', 'MySQL', 'Database Design', 'Sustainability Tracker', 'NonProfit'],
+        keywords: ['MySQL', 'Database Design'],
         links: []
-    },
-    {
-        id: 4,
-        title: 'Indigo Water',
-        date: 'November 2024 - May 2025',
-        figure: `${import.meta.env.BASE_URL}indigoWater.png`,
-        contribution: 'Programmer, Level Designer',
-        description: `
-            Assembled team to build a complete 2D fishing game that focuses on recycling. I owned programming and level design, implementing every system such as player movement, collision, inventory, and a crafting mechanic that allows players to combine collected garbage into reusable items.
-            <br><br>
-            The game was released on itch.io and is available for free, online play on Windows.
-        `,
-        keywords: ['GameMaker', 'Game Development', '2D Game', 'Fishing', 'Recycling'],
-        links: [
-            { label: 'Play', href: 'https://soregunned.itch.io/indigo-water' },
-        ],
-    },
-    {
-        id: 5,
-        title: 'Book Club',
-        date: 'September 2024 - December 2024',
-        figure: `${import.meta.env.BASE_URL}theaterProduction.png`,
-        contribution: 'Props and Lighting Technician',
-        description: `
-            Theater Performance class had a public performance for Book Club, adapted from an existing piece. I managed props for a 12-person cast, sourcing books and additional items from campus resources. I also ran all lighting during the 60-minute performance, supporting every rehearsal and the final live show at the end of the semester.
-            <br><br>
-            The performance was a success. It had a full house with seats occupied by both the campus and the local community, and it also sparked a genuine interest in theater that I didn't have when I first joined the team.
-        `,
-        keywords: ['Theater', 'Backstage', 'Live Performance', 'Props', 'Lighting'],
-        links: [],
-    },
+    }
 ]
 </script>
 
@@ -87,7 +61,7 @@ const projects = [
     <section id="projects">
         <div class="section-container">
             <div class="section-header">
-                <h2 class="section-title">Projects and Experiences</h2>
+                <h2 class="section-title">Software Engineering Experience</h2>
             </div>
 
             <div class="projects-grid">

@@ -8,17 +8,16 @@ const technical = [
     'JavaScript',
     'Java',
     'Vue.js',
-    'HTML / CSS',
+    'Node.js',
+    'Pandas',
     'REST APIs',
     'Git / GitHub',
-    'Docker',
     'SQL',
-    'GameMaker Studio',
-    'Data Mining',
     'Data Analysis',
     'Machine Learning',
     'Linux',
     'Vercel',
+    'Render'
 ]
 
 const professional = [
@@ -27,9 +26,6 @@ const professional = [
     'Cross-functional Collaboration',
     'Stakeholder Communication',
     'Technical Documentation',
-    'Ethics',
-    "Logic",
-    'Critical Thinking',
     'Agile / Scrum'
 ]
 </script>
